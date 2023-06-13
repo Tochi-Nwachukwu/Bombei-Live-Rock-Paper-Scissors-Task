@@ -1,0 +1,23 @@
+.scoreboard {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+h2 {
+  color: orange;
+  font-family: sans-serif;
+}
+
+span {
+  color: white;
+}

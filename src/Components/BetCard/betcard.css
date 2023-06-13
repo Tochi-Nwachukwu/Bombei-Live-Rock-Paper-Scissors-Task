@@ -1,0 +1,43 @@
+.card {
+  border-radius: 8px;
+  border: 1px solid;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  padding: 8px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+
+}
+
+.circle {
+  border-radius: 50%;
+  border: 3px solid blue;
+  height: 90px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text {
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.bet-value {
+  font-family: sans-serif;
+  color: black;
+}

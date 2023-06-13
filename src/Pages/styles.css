@@ -1,0 +1,49 @@
+.home {
+  background-color: rgb(71, 64, 64);
+  height: 100vh;
+  width: 100%;
+  display: grid;
+}
+
+.play-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.play-cards {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
+  place-items: center;
+}
+
+.notification {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: orange;
+}
+
+.play {
+  display: grid;
+}
+.details {
+  font-size: 10px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#gameScore{
+  font-size: 18px;
+}
+
+.play-button {
+  padding: 36px 72px;
+  border: 2px solid wheat;
+  font-size: 24px;
+  border-radius: 80px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
