@@ -1,6 +1,9 @@
 import { randomNumber } from "./utils";
 
+
+
 export function RPS_GAME(CHOICE1: string, CHOICE2: string) {
+  // THIS FUNCTION CONTAINS THE ALGORITHM FOR THE ROCK PAPER SCISSORS GAME
   const status = {
     ROCK_WINS: "ROCK",
     PAPER_WINS: "PAPER",
@@ -29,6 +32,7 @@ export function RPS_GAME(CHOICE1: string, CHOICE2: string) {
 }
 
 export function PLAY_RPS_GAME() {
+  // THIS FUNCTION PLAYS THE ROCK PAPER SCISSORS GAME
   const options = ["ROCK", "PAPER", "SCISSORS"];
   const choice1 = options[randomNumber()];
   const choice2 = options[randomNumber()];

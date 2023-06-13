@@ -1,4 +1,7 @@
+// THIS FILE CONTAINS USEFUL FUNCTIONS THAT ARE USED WITHIN THE APPLICATION
+
 export function balanceChecker(balance: number) {
+  // THIS FUNCTION CHECKS THE BALANCE OF THE PLAYER
   if (balance > 0) {
     return true;
   } else return false;
@@ -12,6 +15,7 @@ export function Announncer({ notif }: anouncePropTypes) {
 }
 
 export const randomNumber = (): number => {
+  // THIS FUNCTION GENERATES A RANDOM
   const number = Math.floor(Math.random() * (3 - 0)) + 0;
   return number;
 };

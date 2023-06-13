@@ -36,6 +36,7 @@ export default function betEngine(usersChoice: any) {
 }
 
 function formatResult(
+  // This fuction formats the result in a manner that can be easilty read by the socreboard
   winner: boolean,
   message: any,
   cpus_bet: string,
